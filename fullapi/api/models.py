@@ -30,4 +30,4 @@ class Profile(models.Model):
         City,
         on_delete=models.CASCADE
     )
-    pincode=models.IntegerField()
+    pincode=models.CharField()
